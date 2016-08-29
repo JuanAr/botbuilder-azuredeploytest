@@ -32,16 +32,13 @@
       ],
       "defaultValue": "0"
     },
+    "Project": {
+      "type": "string"
+    },
     "MICROSOFT_APP_ID": {
       "type": "string"
     },
     "MICROSOFT_APP_PASSWORD": {
-      "type": "string"
-    },
-    "repoUrl": {
-      "type": "string"
-    },
-    "branch": {
       "type": "string"
     }
   },
@@ -83,6 +80,10 @@
           ],
           "properties": {
             "appSettings": [
+              {
+                "name": "Project",
+                "value": "[parameters('Project')]"
+              },
               {
                 "name": "MICROSOFT_APP_ID",
                 "value": "[parameters('MICROSOFT_APP_ID')]"
