@@ -31,6 +31,12 @@
       ],
       "defaultValue": "0"
     },
+    "repoUrl": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
     "Project": {
       "type": "string",
       "defaultValue": "subdir"
