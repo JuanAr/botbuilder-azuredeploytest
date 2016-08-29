@@ -33,12 +33,10 @@
       "defaultValue": "0"
     },
     "MICROSOFT_APP_ID": {
-      "type": "string",
-      "defaultValue": "39619a59-5a0c-4f9b-87c5-816c648ff357"
+      "type": "string"
     },
     "MICROSOFT_APP_PASSWORD": {
-      "type": "string",
-      "defaultValue": "e75tPEWfed2unKLYMetmLyL"
+      "type": "string"
     },
     "repoUrl": {
       "type": "string"
