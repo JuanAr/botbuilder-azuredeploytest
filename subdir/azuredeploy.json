@@ -33,7 +33,8 @@
       "defaultValue": "0"
     },
     "Project": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "subdir"
     },
     "MICROSOFT_APP_ID": {
       "type": "string"
